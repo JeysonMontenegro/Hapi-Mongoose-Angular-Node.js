@@ -8,7 +8,7 @@ var app = angular
 	    $routeProvider
 				.when('/',
 					 {templateUrl: 'app/user.html'},
-					 {controller: 'appCtrl.js'}
+					 {controller: 'userCtrl.js'}
 					)
 				.otherwise({redirectTo: '/'});
 	});
